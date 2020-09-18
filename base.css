@@ -1,0 +1,22 @@
+/* 公共css */
+
+/* 修复 */
+
+.clearfix::after, .clearfix::before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif
+}
+
+/* 设置网页主体宽度 */
+
+.w {
+    color: #afafaf;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 1200px;
+}

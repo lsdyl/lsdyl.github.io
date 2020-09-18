@@ -1,0 +1,125 @@
+/* index样式 */
+
+.topbar-wrapper {
+    width: 100%;
+    height: 36px;
+    background-color: #2e2828;
+}
+
+a {
+    color: #afafaf;
+    text-decoration: none;
+    display: block;
+}
+
+.hw-services {
+    float: left;
+}
+.userinfo {
+    float: right;
+}
+
+.hw-services li,.userinfo li {
+    line-height: 36px;
+    float: left;
+}
+
+.hw-services>li, .userinfo>li {
+    padding: 0 8px;
+}
+
+.hw-services .line, .userinfo .line {
+    padding: 0 0px;
+}
+
+.hw-services>li:first-child, .userinfo>li:first-child {
+    padding: 0 8px 0 0;
+}
+
+.hw-services>li.dropdown, .userinfo>li.dropdown {
+    padding: 0 12px 0 10px;
+}
+
+/* 为所有没有下拉列表的li设置hover */
+
+.hw-services>li:not(.dropdown):hover a, .userinfo>li:not(.dropdown):hover a {
+    color: #fff;
+}
+
+/* 为下拉列表父元素开启定位 */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover {
+    background-color: #fff;
+}
+
+/* 下拉列表基础样式 */
+
+.dropdown .dropdownlist {
+    /* 元素右侧定位于父元素的右侧 */
+    position: absolute;
+    right: 0;
+    display: none;
+    /* 圆角 */
+    border-radius: 0 0 8px 8px;
+    /* 外阴影 */
+    /* box-shadow: 0 0 2px #f7f7f7; */
+    line-height: 32px;
+    background-color: #fff;
+}
+
+/* 下拉列表内元素的样式 */
+
+.dropdownlist li {
+    width: 100%;
+    text-align: center;
+}
+
+.dropdownlist li a {
+    color: #777;
+}
+
+/* 下拉列表hover基础样式 */
+
+.dropdown:hover .dropdownlist {
+    display: block;
+}
+
+.dropdown a:hover {
+    color: #cb242b;
+}
+
+.dropdown .morefeature {
+    width: 120px;
+    height: 145px;
+}
+
+/* 更多精彩的样式 */
+
+.userinfo li i.cart{
+    padding: 0 10px 0 0;
+}
+.dropdown .customerservices {
+    width: 85px;
+    height: 85px;
+}
+.dropdown .navigation {
+    width: 895px;
+    height: 201px;
+}
+.dropdown .mobile {
+    width: 244px;
+    height: 392px;
+}
+.dropdown .cart {
+    width: 460px;
+    height: 230px;
+}
+.ggg{
+    /* width: 1200px; */
+    background-size: cover;
+    /* overflow: hidden; */
+}
