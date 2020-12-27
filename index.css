@@ -12,37 +12,38 @@ a {
     display: block;
 }
 
-.hw-services {
+.repository {
     float: left;
 }
+
 .userinfo {
     float: right;
 }
 
-.hw-services li,.userinfo li {
+.repository li, .userinfo li {
     line-height: 36px;
     float: left;
 }
 
-.hw-services>li, .userinfo>li {
+.repository>li, .userinfo>li {
     padding: 0 8px;
 }
 
-.hw-services .line, .userinfo .line {
+.repository .line, .userinfo .line {
     padding: 0 0px;
 }
 
-.hw-services>li:first-child, .userinfo>li:first-child {
+.repository>li:first-child, .userinfo>li:first-child {
     padding: 0 8px 0 0;
 }
 
-.hw-services>li.dropdown, .userinfo>li.dropdown {
+.repository>li.dropdown, .userinfo>li.dropdown {
     padding: 0 12px 0 10px;
 }
 
 /* 为所有没有下拉列表的li设置hover */
 
-.hw-services>li:not(.dropdown):hover a, .userinfo>li:not(.dropdown):hover a {
+.repository>li:not(.dropdown):hover a, .userinfo>li:not(.dropdown):hover a {
     color: #fff;
 }
 
@@ -92,34 +93,57 @@ a {
     color: #cb242b;
 }
 
+.dropdown .moreprojects {
+    width: 122px;
+    height: 145px;
+}
+
 .dropdown .morefeature {
     width: 120px;
     height: 145px;
 }
 
+.dropdown li {
+    margin: auto 20px;
+    text-align: left;
+}
+
 /* 更多精彩的样式 */
 
-.userinfo li i.cart{
+.userinfo li i.cart {
     padding: 0 10px 0 0;
 }
+
 .dropdown .customerservices {
     width: 85px;
     height: 85px;
 }
+
 .dropdown .navigation {
-    width: 895px;
+    width: 355px;
     height: 201px;
 }
+
 .dropdown .mobile {
     width: 244px;
     height: 392px;
 }
+
 .dropdown .cart {
-    width: 460px;
+    width: 200px;
     height: 230px;
 }
-.ggg{
-    /* width: 1200px; */
-    background-size: cover;
-    /* overflow: hidden; */
+
+.private {
+    width: 333;
+    height: 666px;
+}
+
+.privaterespository li {
+    margin: auto 20px;
+}
+
+.privaterespository a {
+    font-size: 18px;
+    color: black;
 }
